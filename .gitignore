@@ -2,6 +2,9 @@
 
 # dependencies
 /node_modules
+/.vscode
+.gitignore
+/.idea
 /.pnp
 .pnp.js
 
