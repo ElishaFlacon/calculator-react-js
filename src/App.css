@@ -39,10 +39,6 @@ h1 {
 
 /*! НАСТРОЙКА ФОРМЫ */
 
-/* .app__input-form {} */
-
-/* .form {} */
-
 .form__text {
     font-size: 28px;
     display: block;
@@ -83,11 +79,16 @@ h1 {
 
 /*! НАСТРОЙКА КНОПОК */
 
-/* .app__keyboard {} */
-
 .keyboard {
     display: grid;
     grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+    grid-template-areas:
+        "1 2 3 4"
+        "5 6 7 8"
+        "9 10 11 12"
+        "13 14 15 16"
+        "B B 17 18"
+    ;
 }
 
 .keyborad__button {
@@ -126,6 +127,10 @@ h1 {
     background: rgb(255, 190, 0);
     font-size: 24px;
     margin: 2px;
+}
+
+.big-button {
+    grid-area: B;
 }
 
 /*! --------------------------- */
