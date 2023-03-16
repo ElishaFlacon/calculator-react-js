@@ -1,8 +1,8 @@
 /*! ВСЯКАЯ НУЖНАЯ НАСТРОЙКА СТРАНИЦЫ И ТЕГОВ */
 html {
-    background-color: rgb(105, 105, 105);
+    background-color: #333333;
     font-family: monospace;
-    color: rgb(241, 248, 255);
+    color: #f6f6ff;
 }
 
 body {
@@ -52,13 +52,13 @@ h1 {
     justify-content: end;
     overflow: hidden;
     height: 100px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 0, 0);
+    background-color: #f6f6ff;
+    border: 1px solid #000000;
     border-radius: 3px;
 }
 
 .form__info {
-    color: rgb(179, 179, 179);
+    color: #333333;
     font-size: 24px;
     margin-right: 10px;
 }
@@ -66,7 +66,7 @@ h1 {
 .form__input {
     margin: 5px 5px -10px 0px;
     font-size: 26px;
-    color: rgb(0, 0, 0);
+    color: #000000;
     height: 60px;
     text-align: right;
 }
@@ -93,7 +93,7 @@ h1 {
 
 .keyborad__button {
     border-radius: 2px;
-    border: 0px solid rgb(0, 0, 0);
+    border: 0px solid #000000;
     margin: 1px;
     padding: 15px 0px 15px 0px;
     font-size: 26px;
@@ -102,29 +102,25 @@ h1 {
 }
 
 .yellow {
-    background: rgb(255, 250, 0);
-}
-
-.dont-working {
-    background: rgb(220, 60, 60);
+    background: #fffa00;
 }
 
 .keyborad__button:hover {
-    background: rgb(216, 216, 216);
+    background: #d8d8d8;
 }
 
 .keyborad__button:active {
-    background: rgb(180, 180, 180);
+    background: #b4b4b4;
     font-size: 24px;
     margin: 2px;
 }
 
 .yellow:hover {
-    background: rgb(255, 210, 0);
+    background: #ffd200;
 }
 
 .yellow:active {
-    background: rgb(255, 190, 0);
+    background: #ffbe00;
     font-size: 24px;
     margin: 2px;
 }
