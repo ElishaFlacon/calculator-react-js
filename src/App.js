@@ -1,5 +1,7 @@
-import './App.css';
 import { useState } from "react";
+import './styles/App.css';
+import Keyboard from "./components/Keyboard";
+import CalcForm from "./components/UI/form/CalcForm";
 
 
 function App() {
@@ -201,40 +203,15 @@ function App() {
                 МЕГАКАЛЬКУЛЯТОР 2.0
             </h1>
 
-            <form className="form" action="number">
-                <div className="form__input-space">
-                    <div className="form__info">
-                        {inputInfo}
-                    </div>
-                    <div className="form__input">
-                        {input}
-                    </div>
-                </div>
-            </form>
+            <CalcForm>
+                {input}
+                {inputInfo}
+            </CalcForm>
 
-            <div className="keyboard" onClick={(e) => buttonClick(e)}>
-                <button className="keyborad__button clear">C</button>
-                <button className="keyborad__button">(</button>
-                <button className="keyborad__button">)</button>
-                <button className="keyborad__button yellow">/</button>
-                <button className="keyborad__button">7</button>
-                <button className="keyborad__button">8</button>
-                <button className="keyborad__button">9</button>
-                <button className="keyborad__button yellow">x</button>
-                <button className="keyborad__button">4</button>
-                <button className="keyborad__button">5</button>
-                <button className="keyborad__button">6</button>
-                <button className="keyborad__button yellow">-</button>
-                <button className="keyborad__button">1</button>
-                <button className="keyborad__button">2</button>
-                <button className="keyborad__button">3</button>
-                <button className="keyborad__button yellow">+</button>
-                <button className="keyborad__button big-button">0</button>
-                <button className="keyborad__button">.</button>
-                <button className="keyborad__button yellow">=</button>
+            <div onClick={(e) => buttonClick(e)}>
+                <Keyboard />
             </div>
         </div>
-
     );
 }
 

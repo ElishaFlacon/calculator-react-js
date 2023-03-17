@@ -1,0 +1,37 @@
+.keyborad__button {
+    border-radius: 2px;
+    border: 0px solid #000000;
+    margin: 1px;
+    padding: 15px 0px 15px 0px;
+    font-size: 26px;
+    cursor: pointer;
+
+}
+
+.yellow {
+    background: #fffa00;
+}
+
+.keyborad__button:hover {
+    background: #d8d8d8;
+}
+
+.keyborad__button:active {
+    background: #b4b4b4;
+    font-size: 24px;
+    margin: 2px;
+}
+
+.yellow:hover {
+    background: #ffd200;
+}
+
+.yellow:active {
+    background: #ffbe00;
+    font-size: 24px;
+    margin: 2px;
+}
+
+.bigButton {
+    grid-area: B;
+}
