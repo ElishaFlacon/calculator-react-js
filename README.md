@@ -47,7 +47,7 @@
  📺 Демо:
 </h2>
 
-- <a href="https://vk.com/public211064601">Нажать чтобы демо!</a>
+- <a href="https://elishaflacon.github.io/calculator-react-js/">Нажать чтобы демо!</a>
 
 
 
