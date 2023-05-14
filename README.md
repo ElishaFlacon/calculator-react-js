@@ -15,8 +15,9 @@
   🛠️ Инструменты для работы калькулятора:
 </h2>
 
-- react
-- nodejs
+- JavaScript
+- React
+
 
 
 
@@ -28,11 +29,11 @@
   🚀 Зпуск приложения:
 </h2>
 
-- git clone https://github.com/ElishaFlacon/calculator-react-js.git
-- cd calculator-react-js
-- npm install
-- npm audit fix (если появились ошибки)
-- npm start
+- `git clone https://github.com/ElishaFlacon/calculator-react-js.git`
+- `cd calculator-react-js`
+- `npm install`
+- `npm audit fix` (если появились ошибки)
+- `npm start`
 <h3>
     Запускаем, не работет, ура! 🗿🚬
 </h3>
